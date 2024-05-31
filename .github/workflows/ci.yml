@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Build
-        run: pnpm docs:build
+        run: pnpm build
       # step 3、部署到指定分支
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
